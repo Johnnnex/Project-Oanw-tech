@@ -1,0 +1,319 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    font-family: 'Poppins';
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+div.title {
+    display: flex;
+
+}
+span.title {
+    border-radius: 50%;
+    background: linear-gradient(133.03deg, #FF5E5F 12.93%, #F54748 93.97%);
+    margin-right: 10px;
+    height: 10px;
+    width: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1.title {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    margin: 10px 20px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a.active {
+    color: #F54748;
+    font-family: 'Poppins';
+}
+div.search {
+    display: flex;
+    margin-top: 10px;
+    box-shadow: 1px 3px 20px 0px #00000026;
+}
+img.search {
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    padding: 8px;
+}
+input {
+    height: 30px;
+    padding: 6px;
+    border: none;
+    background-color: #fff;
+}
+button.search {
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    border-left: 1px solid #0000001c;
+}
+span.search {
+    cursor: pointer;
+    position: absolute;
+    left: 91%;
+    top: 5%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    background-color: #F54B4B;
+    padding: 4px;
+    height: 19px;
+    width: 20px;
+    box-shadow: -1px 3px 3px 1px #1211111c;
+}
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-left: -50px;
+}
+p.carditem1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #FDECEC;
+    margin-right: 40%;
+    border-radius: 20px;
+    padding: 2px;
+}
+img.carditem1 {
+    height: 40px;
+    margin: 0px 0px 0px -9px;
+}
+p.carditem1 small{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #F55556;
+}
+h2.carditem2 {
+    font-family: 'Arial Black';
+    font-size: 3em;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+h2.carditem2 strong {
+    color: #F54748;
+    font-family: sans-serif;
+}
+p.carditem3 {
+    margin-top: 20px;
+}
+small.carditem3 {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #676767;
+    font-weight: lighter;
+}
+p.carditem4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 20%;
+}
+p.carditem4 a {
+    font-family: 'Calibri';
+    font-weight: 500;
+    color: #fff;
+    background-color: #F86061;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px;
+    width: 120px;
+    transition: 1s;
+}
+p.carditem4 a:hover {
+    background-color: #f860617d;
+}
+p.carditem4 b{
+    font-family: 'Calibri';
+}
+span.carditem4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 1px 3px 4px 0px #67676754;
+    border-radius: 50%;
+    width: 50px;
+    padding: 9px;
+}
+span.carditem4 img {
+    margin-bottom: -15px;
+}
+div.card2 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -10em;
+}
+div.card2-item1 {
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 50%;
+    text-align: center;
+    box-shadow: 1px 12px 20px 1px #0000001c;
+}
+div.card2-item1 img {
+    height: 40%;
+    width: 90%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+span.card2-item1 {
+    cursor: pointer;
+    background-color: red;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-top: 3.5%;
+    right: 42%;
+}
+span.card2-item1 img {
+    height: 100%;
+    margin-top: 5%;
+    margin-right: 30%;
+    
+}
+label.card2-item1 {
+    font-family: 'Calibri';
+    font-weight: bolder;
+}
+p.card2-item1-empty {
+    margin: 5px 40% 10px 40%;
+    border-bottom: 2px solid #FFA610;
+}
+div.card2-item1 h2 {
+    font-family: 'calibri';
+    font-weight: bolder;
+}
+div.card2-item1 small {
+    color: #A5A5A5;
+}
+div.card2-item2 img {
+    height: 80%;
+}
+span.card2-item3 {
+    margin-top: 50px;
+}
+span.card2-item3 div {
+    display: flex;
+    margin-left: -6em;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 6px 2px #00000029;
+}
+span.card2-item3 img {
+    height: 35px;
+    width: 40px;
+    margin-right: 8px;
+}
+span.card2-item3 small {
+    font-weight: lighter;
+    color: #A5A5A5;
+}
+section.section2 {
+    background-color: #FEF5F5;
+    text-align: center;
+    margin-top: -30px;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+section.section2 h3 {
+    color: #F54748;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+section.section2 h1 {
+    font-family: 'Arial Black';
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+div.section2 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+div.card {
+    height: 19em;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+img.img-1 {
+    height: 80px;
+    margin-bottom: 40px;
+}
+div.card h2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+div.card small {
+    color: #676767;
+    font-size: 15px;
+}
+.section3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10em;
+}
+span.sec-3content-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img.sec-3content-1 {
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
+}
+img.border-img {
+    width: 19em;
+    background: none;
+    margin-left: -22%;
+    margin-top: 200px;
+    position: absolute;
+    background: none;
+
+}
+div.outer-circle {
+    border: 40px solid black;
+    border-radius: 50%;
+    
+}
